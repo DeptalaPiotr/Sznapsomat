@@ -81,7 +81,7 @@
 
 #define PUMP_POWER  3        // sygnał sterujący sterownikiem pompy (zwykle oznaczony jako IN na sterownikach silników, lub GATE/BASE, jeśli używany jest tranzystor)
 #define SERVO_POWER 4        // sygnał sterujący sterownikiem zasilania silnika serwo (zwykle oznaczony jako IN na sterownikach silników, lub GATE/BASE, jeśli używany jest tranzystor)
-#define SERVO_PIN   5        // sygnał z silnika serwo
+#define SERVO_PIN   2        // sygnał z silnika serwo
 #define LED_PIN     6        // sygnał DIO/DI pierwszej diody LED (WS2812b)
 #define BTN_PIN     7        // sygnał z głównego przycisku do nalewania i zmiany trybów
 #define ENC_SW      8        // sygnał centralnego przycisku na enkoderze do pompowania i ustawiania różnych objętości. Oznaczony jako SW lub BTN
